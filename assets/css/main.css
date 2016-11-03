@@ -1,0 +1,92 @@
+html, body{
+  max-height:100vh;
+  max-width:100%;
+  font-size: 4vh;
+  font-family:mainFont;
+  line-height:1.8em;
+  margin:0;
+  padding:0;
+}
+
+.main{
+  width:100%;
+  height:65vh;
+  color:black;
+  text-align:center;
+  overflow:hidden;
+  box-sizing: border-box;
+}
+
+.header{
+  width:100%;
+  height:35vh;
+  background-color:#40B1B3;
+  text-align:center;
+  color:white;
+  box-sizing: border-box; 
+  padding-top:1em;
+  overflow:hidden;
+}
+
+.header img{
+  
+  height:40%;
+  position:relative;
+  width:auto;
+  display:inline-block;
+}
+.main #list{
+  display:inline-block;
+
+}
+
+#MERGE0{
+  width:40%;
+  height:2em;
+  font-size:4vh;
+  font-family:mainFont;
+
+}	
+
+.button{
+  font-family:mainFont;
+  font-size:4vh;
+  height:2em;
+}
+
+
+
+.main p{
+  display:block;
+  height:15%;
+  box-sizing: border-box; 
+  padding-top:1em; 
+}
+.main ol{
+  display:block;
+  height:40%;
+  text-align:left;
+}
+.main .form{
+  display:block;
+  height:30%;
+}
+.with{
+  font-family:thinFont;
+}
+
+
+/* Fonts*/
+
+@font-face {
+    font-family: mainFont;
+    src: url("../fonts/josefin-sans/josefin-sans/JosefinSans-SemiBold.ttf");
+
+}
+
+@font-face {
+    font-family: thinFont;
+    src: url("../fonts/josefin-sans/josefin-sans/JosefinSans-Regular.ttf");
+
+}
+
