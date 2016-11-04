@@ -8,11 +8,17 @@ html, body{
   padding:0;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     /* For mobile phones: */
     body{
         font-size: 4vw;
     }
+  #MERGE0{
+    font-size:4vw;
+  }
+  .button{
+    font-size:4vw;
+  }
 }
 
 
